@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //reset function
     private fun reset(){
         val resultText: TextView = findViewById(R.id.result_text1)
         val resultText1: TextView = findViewById(R.id.result_text2)
