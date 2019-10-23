@@ -38,8 +38,7 @@ class MainActivity : AppCompatActivity() {
         val randomInt3 = Random().nextInt(6) + 1
         resultText3.text = randomInt3.toString()
     }
-
-
+    
     private fun countUp() {
 
         val resultText1: TextView = findViewById(R.id.result_text1)
